@@ -1,0 +1,16 @@
+Email para cliente
+
+
+Fala pessoal, tudo bem?
+
+Nós do time de Web Tracking e Mobile Solutions,
+trouxemos a solução do problema que vocês nos enviaram.
+Foi muito simples resolver sua case, só precisamos 
+fazer uma varredura na lista de produtos que recebemos,
+nessa varredura, trocamos os campos "price" por "item_price",
+conforme solicitado e convertemos os dados desses campos que 
+estavam como texto, e que agora são números.
+Toda essa nova formatação foi atribuída numa nova lista 
+que estamos enviando para vocês.
+
+Abraços!!! 

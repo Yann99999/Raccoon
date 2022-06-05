@@ -1,0 +1,35 @@
+Relatório Técnico
+
+Olá equipe, para explicar o que fiz para 
+solucionar o problema que foi me dado, 
+vou explicar nos tópicos a baixo:
+
+
+1- Meu primeiro passo foi converter os campos
+"product_quantity" e "product_price" em número,
+para isso usei o map(), nele criei as variáveis  
+"converterQtdItens", ela recebe o método 
+Number.parseInt(), que recebe o campo "product_quantity",
+e criei a variável "converterPreco", que recebe o métod
+Number.parseFloat(), que recebe o campo "product_price"
+por parâmetro. Por fim atribui os valores dessas variáveis
+em seus respectivos campos de quantidade e preço;
+
+2- Agora comp a lista tem seus valores convertidos,
+usei o método reduce() para somar o valor total da lista.
+Usei a equação: (preço do produto * sua quantidade) + o antigo valor.
+O resultado do método reduce(), foi atribuído na nova variável
+"totalPrice";
+
+3- Criei a variável "freeShipping", recebendo false por padrão;
+
+4- Fiz uma condicional, que se o valor da "totalPrice" for 
+maior que 300, a variável "freeShipping", se torna true. Senão,
+ela continua false;
+
+5- Criei o objeto "cartPricesInfo" que foi solicitada e nela 
+atribui os campos e valores "totalPrice" e "freeShipping",
+com a formatação que foi solicitada pelo cliente.
+
+
+ 

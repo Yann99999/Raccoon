@@ -1,0 +1,19 @@
+Email para cliente
+
+Olá pessoal, bom dia!
+
+Nós do time de Web Tracking e Mobile Solutions,
+trouxemos a solução do problema que vocês nos enviaram.
+Para resolver sua case, fizemos uma varredura na lista que
+nós recebemos, para poder converter os valores da quantidade 
+de cada item, e de seus preços, que originalmente vieram como
+texto. Após essa varredura, calculamos quanto vale cada produto
+da lista, e os somamos para descobrir o valor total. No fim, 
+fizemos a verificação solicitada, se caso o valor total da compra
+for maior que 300 reais, o frete será grátis.
+Os dados do valor total gasto pelo cliente e o status do frete, 
+foram atribuídos em uma outra lista chamada cartPricesInfo.
+
+Qualquer dúvida, estamos à disposição.
+
+Abraços!!! 

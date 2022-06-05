@@ -1,0 +1,40 @@
+Relatório Técnico
+
+Olá equipe, para explicar o que fiz para 
+solucionar o problema que foi me dado, 
+vou explicar nos tópicos a baixo:
+
+
+1- A primeira solicitação foi alterar o campo 
+"price" do objeto para "item_price" : 
+
+Para isso, já criei a nova variável que foi solicitada
+"new_products_list" e atribiui os valores da antiga lista
+nessa nova variável para poder manipulá-la;
+
+O segundo passo foi usar um forEach() para percorrer a 
+nova variável. Esse forEach() busca todos os campos com
+nome "price" e altera para "item_price", e em seguida
+já deleta o velho atributo;
+
+Depois desse passo, a nova lista retorna com os mesmos
+atributos, mas já com a alteração "item_price".
+
+
+2- A segunda solicitação foi transformar os valores do
+campo "item_price" em número, que originalmente eram texto:
+
+Para isso, usei o método map() para percorrer a nova lista 
+buscando pelos valores do "item_price" e atribui numa nova variável
+chamada "precoAjustado", usei essa nova variável o método
+replace() para poder retirar o "R$" e substituir a "," por ".";
+
+Depois criei outra variável chamada "precoToNumber", nessa usei
+o método Number.parseFloat() e passei a variável "precoAjustado"
+como paramêtro para poder fazer a conversão de texto para número;
+
+Por último, atribui para o campo "item_price" o valor da variável
+"precoToNumber", que irá retornar nos respectivos campos os dados 
+convertidos de texto para número.
+  
+ 

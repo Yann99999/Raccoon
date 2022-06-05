@@ -1,0 +1,16 @@
+Email para cliente
+
+Olá bom dia!
+
+Nós do time de Web Tracking e Mobile Solutions,
+trouxemos a solução do problema que vocês nos enviaram.
+Para resolver sua case, fizemos uma varredura na lista que
+nós recebemos, nessa varredura, fizemos a verificação por ID do produto. 
+Se caso o produto não existisse na nova lista, o adicionaríamos nela,
+se já existisse, ele não será adicionado. Após identificara as duplicatas,
+filtramos os produtos com estoque zerado e os removemos da nova lista. 
+
+
+Qualquer dúvida, estamos à disposição.
+
+Abraços!!! 

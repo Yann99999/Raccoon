@@ -1,0 +1,21 @@
+Relatório Técnico
+
+Olá equipe, para explicar o que fiz para 
+solucionar o problema que foi me dado, 
+vou explicar nos tópicos a baixo:
+
+
+1- A primeira solicitação foi remover os objetos
+duplicados da lista:
+
+Para isso usei os métodos filter e findIndex,
+fazendo a verificação pelo ID do objeto.
+
+2- Retirar os objetos com estoque zerado:
+
+No mesmo método anterior, apenas adicionei 
+o operador lógico '&&' com a condição "product_stock_quantity"
+maior que 0. Sendo assim, o método retorna na nova 
+variável "cart_products_sanitized", todos os objetos não 
+repetidos e que tenha estoque acima de 0 unidades.
+
